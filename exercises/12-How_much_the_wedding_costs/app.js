@@ -1,3 +1,5 @@
+//Code Already Compiled
+
 let guests = prompt('How many people are coming to your wedding?');
 
 function getPrice(guests){

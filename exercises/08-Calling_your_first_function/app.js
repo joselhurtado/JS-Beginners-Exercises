@@ -1,8 +1,10 @@
+//Code Already Compiled
+
 function isOdd(myNumber)
 {
 	return !(myNumber % 2 == 0);
 }
 
-// Your code below:
+//My code below:
 
 console.log(isOdd(45345));

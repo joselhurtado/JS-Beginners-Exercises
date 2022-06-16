@@ -1,6 +1,8 @@
+//Code Already Compiled
+
 const VERSION = '0.1';
 
-//Change the code below: 
+//My code below: 
 
 const VERSION2 = '0.9';
 

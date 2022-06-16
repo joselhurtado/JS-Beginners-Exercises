@@ -1,6 +1,7 @@
+//Code Already Compiled
 var age = prompt('What is your age?');
 
-// Your code below:
+// My code below:
 
 // var expected = parseInt(age) + 10; 
 let myNumber = Number(age);

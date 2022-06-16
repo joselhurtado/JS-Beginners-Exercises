@@ -1,7 +1,9 @@
+//Code Already Compiled
+
 var mySuperVariable = 'hello';
 console.log(mySuperVariable);
 
-// Your code below:
+// My code below:
 
 var color = 'red';
 console.log(color);

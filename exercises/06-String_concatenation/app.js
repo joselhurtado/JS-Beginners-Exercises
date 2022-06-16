@@ -1,5 +1,6 @@
+//Code Already Compiled
 
-//Set the values here
+//Set the values here already
 var myVar1 = 'Hello';
 var myVar2 = 'World';
 
