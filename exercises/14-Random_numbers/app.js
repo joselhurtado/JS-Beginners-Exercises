@@ -1,10 +1,11 @@
-/*Exercise closely resembles 11 - consider introducing another concept here? */
+/*Exercise closely resembles 11 - consider introducing another concept here? 
+LOOKING FOR MORE GUIADANCE ON THIS */
 
-function getRandomInt()
+function getRandomInt(min, max)
 {
 	var randomNumber = Math.random();
-	return randomNumber;
+	return Math.floor(Math.random() * (max - min + 1)) + randomNumber;
 }
 
 
-console.log(getRandomInt());
+console.log(getRandomInt(1, 10));
