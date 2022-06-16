@@ -1,3 +1,5 @@
+//Code Already Compiled
+
 function getRandomInt(min, max)
 {
 	var randomNumber = Math.random();

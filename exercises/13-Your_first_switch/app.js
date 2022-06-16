@@ -1,3 +1,5 @@
+//Code Already Compiled
+
 function getColor(selection) {
 
 	// Code starting here
