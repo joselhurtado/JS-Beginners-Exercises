@@ -1,5 +1,3 @@
-// NEED HELP ON THIS CODE ALREADY COMPILE WITH ERRORS
-
 // firePosition will be the position in which the gun will fire.
 let firePosition = 1;
 
@@ -8,14 +6,11 @@ const spinChamber = () => {
 	let chamberPosition = Math.floor((Math.random() * 6) + 1);
 	return chamberPosition;
 };
-console.log(spinChamber());
 
 // Remove the // below and complete the commented lines
 const fireGun = (bulletPosition) => {
-    if (spinChamber() != firePosition) {
-		return ("You're dead!");
-    } else
-		return ("Keep playing!");
+    // if (...) return ("You're dead!");
+    // else return ("Keep playing!");
 };
 
 console.log(fireGun(spinChamber()));
