@@ -1,9 +1,10 @@
+// Code Already Compiled
 
 //fix this function:
 function startCounting()
 {
-	var counter = 100;
-	while(counter <= 100)
+	var counter = 101;
+	while(counter >= 1)
 	{
 		counter --;
 		console.log(counter);
