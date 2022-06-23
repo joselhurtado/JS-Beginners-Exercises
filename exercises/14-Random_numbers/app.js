@@ -1,12 +1,10 @@
-/* Exercise closely resembles 11 - consider introducing another concept here? 
-NEED HELP ON THIS */
+// Code Already Compiled
+/* Exercise closely resembles 11 - consider introducing another concept here? */
 
 function getRandomInt()
 {
 	var randomNumber = Math.random();
-	return Math.round(randomNumber);	
+	return Math.floor(Math.round(randomNumber * 10));	
 }
-
-
 console.log(getRandomInt());
 
