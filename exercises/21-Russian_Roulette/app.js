@@ -1,4 +1,4 @@
-// NEED HELP ON THIS CODE ALREADY COMPILE WITH ERRORS
+// Code Already Compiled
 
 // firePosition will be the position in which the gun will fire.
 let firePosition = 1;
@@ -12,7 +12,7 @@ console.log(spinChamber());
 
 // Remove the // below and complete the commented lines
 const fireGun = (bulletPosition) => {
-    if (spinChamber() == firePosition) {
+    if (bulletPosition == firePosition) {
 		return ("You're dead!");
     } else
 		return ("Keep playing!");
