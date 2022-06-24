@@ -1,4 +1,4 @@
-// Code Already
+// Code Already Compiled with errors
 
 function getColor(colorNumber)
 {
@@ -17,18 +17,15 @@ function getColor(colorNumber)
 				 break;
 	}
 }
+// console.log(getColor(2));
 
-function getAllStudentColors(){ //your loop here
-	for(let i = 0; i < 10; i++){
+function getAllStudentColors(){ 
+	for(let i = 1; i <= 10; i++){ //your loop here
 		var num = Math.floor(Math.random() * 4);
-		console.log(num);
 		var exampleColor = getColor(num);
-		console.log(exampleColor);
+		console.log(num, exampleColor);
 	}
-
-
 }
 
 //call the function below with the number of students in the class and print on the console
 getAllStudentColors();
-

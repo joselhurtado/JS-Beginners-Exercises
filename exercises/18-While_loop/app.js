@@ -1,6 +1,6 @@
 // Code Already Compiled
 
-//fix this function:
+//fix this function - Function Fixed Below:
 function startCounting()
 {
 	var counter = 101;

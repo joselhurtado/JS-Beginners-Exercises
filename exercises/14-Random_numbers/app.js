@@ -1,4 +1,5 @@
 // Code Already Compiled
+
 /* Exercise closely resembles 11 - consider introducing another concept here? */
 
 function getRandomInt()
