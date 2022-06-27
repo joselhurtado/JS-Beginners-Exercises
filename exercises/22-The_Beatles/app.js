@@ -7,7 +7,6 @@ function sing() {
     }
     lyrics += "whisper words of wisdom, ";
     for(let i = 0; i < 5; i++){
-        lyrics += "let it be, ";
     }
     lyrics += "there will be an answer, let it be";
     return lyrics;
